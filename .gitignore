@@ -1,0 +1,62 @@
+# Python
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.swp
+*.swo
+.env
+.env.*
+*.egg-info/
+*.egg
+pip-log.txt
+
+# Django media/static
+/staticfiles/
+/media/
+/node_modules/
+
+# VS Code
+.vscode/
+.history/
+
+# Pytest
+.pytest_cache/
+
+# Django migrations (optional if generated, but can be kept in Git)
+**/migrations/*.pyc
+**/migrations/__pycache__/
+# Uncomment below to ignore migration files themselves
+# **/migrations/*.py
+
+# macOS / Linux
+.DS_Store
+.idea/
+*.sublime*
+
+# Angular
+/frontend/node_modules/
+frontend/dist/
+/frontend/.angular/
+frontend/.env
+frontend/.env.* 
+frontend/.cache/
+
+# Optional: Angular test coverage
+/frontend/coverage/
+
+# Logs
+*.log
+
+# Build artifacts
+build/
+dist/
+tmp/
+*.bak
+
+# PyCha
